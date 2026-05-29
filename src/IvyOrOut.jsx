@@ -1390,13 +1390,10 @@ const styles = {
     gap: '14px',
   },
   logo: {
-    width: '56px',
-    height: '56px',
+    width: '112px',
+    height: '112px',
     objectFit: 'contain',
     flexShrink: 0,
-    background: 'rgba(255,255,255,0.95)',
-    borderRadius: '8px',
-    padding: '4px',
   },
   headerText: {
     flex: 1,
