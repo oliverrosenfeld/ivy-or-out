@@ -132,6 +132,7 @@ const SCHOOLS = {
   tufts: {
     name: 'Tufts', nickname: 'Jumbos', location: 'Medford, MA',
     conf: 'NESCAC', colors: { primary: '#3E8EDE', secondary: '#52307C' },
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tufts_Jumbos_logo.svg/330px-Tufts_Jumbos_logo.svg.png',
     facts: [
       'No athletic scholarships (Division III)',
       'Need-based merit aid avg: $42K/year',
@@ -146,6 +147,7 @@ const SCHOOLS = {
   williams: {
     name: 'Williams', nickname: 'Ephs', location: 'Williamstown, MA',
     conf: 'NESCAC', colors: { primary: '#500082', secondary: '#FFD700' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/d/df/Williams_athletics_wmark.png',
     facts: [
       'No athletic scholarships (D-III)',
       'Need-blind admission, generous merit aid',
@@ -160,6 +162,7 @@ const SCHOOLS = {
   amherst: {
     name: 'Amherst', nickname: 'Mammoths', location: 'Amherst, MA',
     conf: 'NESCAC', colors: { primary: '#3F1F69', secondary: '#FFFFFF' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Amherst_Mammoths_wordmark.png/330px-Amherst_Mammoths_wordmark.png',
     facts: [
       'No athletic scholarships (D-III)',
       'Pratt Field capacity: 3,500',
@@ -174,6 +177,7 @@ const SCHOOLS = {
   bowdoin: {
     name: 'Bowdoin', nickname: 'Polar Bears', location: 'Brunswick, ME',
     conf: 'NESCAC', colors: { primary: '#231F20', secondary: '#FFFFFF' },
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Bowdoin_Polar_Bears_Logo.svg/330px-Bowdoin_Polar_Bears_Logo.svg.png',
     facts: [
       'No athletic scholarships (D-III)',
       'Whittier Field capacity: 5,000',
@@ -188,6 +192,7 @@ const SCHOOLS = {
   bates: {
     name: 'Bates', nickname: 'Bobcats', location: 'Lewiston, ME',
     conf: 'NESCAC', colors: { primary: '#881C1C', secondary: '#3A1010' },
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Bates_Bobcats_logo.svg/500px-Bates_Bobcats_logo.svg.png',
     facts: [
       'No athletic scholarships (D-III)',
       'Garcelon Field capacity: 4,500',
@@ -202,6 +207,7 @@ const SCHOOLS = {
   colby: {
     name: 'Colby', nickname: 'Mules', location: 'Waterville, ME',
     conf: 'NESCAC', colors: { primary: '#002F6C', secondary: '#A6A6A6' },
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Colby_Mules_logo.svg/500px-Colby_Mules_logo.svg.png',
     facts: [
       'No athletic scholarships (D-III)',
       'Seaverns Field capacity: 4,000',
@@ -216,6 +222,7 @@ const SCHOOLS = {
   middlebury: {
     name: 'Middlebury', nickname: 'Panthers', location: 'Middlebury, VT',
     conf: 'NESCAC', colors: { primary: '#003594', secondary: '#FFFFFF' },
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Middlebury_Panthers_logo.svg/500px-Middlebury_Panthers_logo.svg.png',
     facts: [
       'No athletic scholarships (D-III)',
       'Youngman Field capacity: 4,500',
@@ -230,6 +237,7 @@ const SCHOOLS = {
   trinity: {
     name: 'Trinity', nickname: 'Bantams', location: 'Hartford, CT',
     conf: 'NESCAC', colors: { primary: '#005A9C', secondary: '#FFD200' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Trinity_conn_athletics_monogram.png/250px-Trinity_conn_athletics_monogram.png',
     facts: [
       'No athletic scholarships (D-III)',
       'Jessee/Miller Field capacity: 3,500',
@@ -244,6 +252,7 @@ const SCHOOLS = {
   hamilton: {
     name: 'Hamilton', nickname: 'Continentals', location: 'Clinton, NY',
     conf: 'NESCAC', colors: { primary: '#00558C', secondary: '#9BBDCC' },
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Hamilton_Tiger-Cats_logo.svg/250px-Hamilton_Tiger-Cats_logo.svg.png',
     facts: [
       'No athletic scholarships (D-III)',
       'Steuben Field capacity: 2,500',
@@ -258,6 +267,7 @@ const SCHOOLS = {
   wesleyan: {
     name: 'Wesleyan', nickname: 'Cardinals', location: 'Middletown, CT',
     conf: 'NESCAC', colors: { primary: '#A50034', secondary: '#000000' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Wesleyan_cardinals_mark.png',
     facts: [
       'No athletic scholarships (D-III)',
       'Andrus Field capacity: 5,000',
@@ -272,6 +282,7 @@ const SCHOOLS = {
   conncoll: {
     name: 'Conn College', nickname: 'Camels', location: 'New London, CT',
     conf: 'NESCAC', colors: { primary: '#003F6F', secondary: '#9CB7D0' },
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Formal_Seal_of_Connecticut_College%2C_New_London%2C_CT%2C_USA.svg/330px-Formal_Seal_of_Connecticut_College%2C_New_London%2C_CT%2C_USA.svg.png',
     facts: [
       'No athletic scholarships (D-III)',
       'Silfen Field capacity: 1,500',
@@ -288,6 +299,7 @@ const SCHOOLS = {
   michigan: {
     name: 'Michigan', nickname: 'Wolverines', location: 'Ann Arbor, MI',
     conf: 'Big Ten', colors: { primary: '#00274C', secondary: '#FFCB05' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Michigan_Wolverines_logo.svg/330px-Michigan_Wolverines_logo.svg.png',
     facts: [
       'Full scholarship + $4,800 stipend',
       'Michigan Stadium ("The Big House"): 107,601',
@@ -302,6 +314,7 @@ const SCHOOLS = {
   ohiostate: {
     name: 'Ohio State', nickname: 'Buckeyes', location: 'Columbus, OH',
     conf: 'Big Ten', colors: { primary: '#BB0000', secondary: '#666666' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/500px-Ohio_State_Buckeyes_logo.svg.png',
     facts: [
       'Full scholarship + $6,038 stipend',
       'Ohio Stadium ("The Horseshoe"): 102,780',
@@ -316,6 +329,7 @@ const SCHOOLS = {
   pennstate: {
     name: 'Penn State', nickname: 'Nittany Lions', location: 'University Park, PA',
     conf: 'Big Ten', colors: { primary: '#041E42', secondary: '#FFFFFF' },
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Penn_State_Nittany_Lions_logo.svg/500px-Penn_State_Nittany_Lions_logo.svg.png',
     facts: [
       'Full athletic scholarship + stipend',
       'Beaver Stadium: 106,572 capacity',
@@ -330,6 +344,7 @@ const SCHOOLS = {
   usc: {
     name: 'USC', nickname: 'Trojans', location: 'Los Angeles, CA',
     conf: 'Big Ten', colors: { primary: '#990000', secondary: '#FFC72C' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/USC_Trojans_logo.svg/250px-USC_Trojans_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'LA Memorial Coliseum: 77,500',
@@ -344,6 +359,7 @@ const SCHOOLS = {
   oregon: {
     name: 'Oregon', nickname: 'Ducks', location: 'Eugene, OR',
     conf: 'Big Ten', colors: { primary: '#154733', secondary: '#FEE123' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oregon_Ducks_logo.svg/330px-Oregon_Ducks_logo.svg.png',
     facts: [
       'Full scholarship + stipend',
       'Autzen Stadium: 54,000 (loudest in CFB)',
@@ -358,6 +374,7 @@ const SCHOOLS = {
   ucla: {
     name: 'UCLA', nickname: 'Bruins', location: 'Los Angeles, CA',
     conf: 'Big Ten', colors: { primary: '#2774AE', secondary: '#FFD100' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/UCLA_Bruins_primary_logo.svg/500px-UCLA_Bruins_primary_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Rose Bowl: 88,565 capacity (off-campus)',
@@ -372,6 +389,7 @@ const SCHOOLS = {
   washington: {
     name: 'Washington', nickname: 'Huskies', location: 'Seattle, WA',
     conf: 'Big Ten', colors: { primary: '#4B2E83', secondary: '#B7A57A' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Washington_Huskies_logo.svg/500px-Washington_Huskies_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Husky Stadium: 70,138 (Lake Washington views)',
@@ -386,6 +404,7 @@ const SCHOOLS = {
   wisconsin: {
     name: 'Wisconsin', nickname: 'Badgers', location: 'Madison, WI',
     conf: 'Big Ten', colors: { primary: '#C5050C', secondary: '#FFFFFF' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wisconsin_Badgers_logo.svg/330px-Wisconsin_Badgers_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Camp Randall Stadium: 80,321',
@@ -400,6 +419,7 @@ const SCHOOLS = {
   iowa: {
     name: 'Iowa', nickname: 'Hawkeyes', location: 'Iowa City, IA',
     conf: 'Big Ten', colors: { primary: '#FFCD00', secondary: '#000000' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Iowa_Hawkeyes_wordmark.svg/330px-Iowa_Hawkeyes_wordmark.svg.png',
     facts: [
       'Full athletic scholarship',
       'Kinnick Stadium: 69,250',
@@ -414,6 +434,7 @@ const SCHOOLS = {
   minnesota: {
     name: 'Minnesota', nickname: 'Golden Gophers', location: 'Minneapolis, MN',
     conf: 'Big Ten', colors: { primary: '#7A0019', secondary: '#FFCC33' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Minnesota_Golden_Gophers_logo.svg/500px-Minnesota_Golden_Gophers_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Huntington Bank Stadium: 50,805',
@@ -428,6 +449,7 @@ const SCHOOLS = {
   nebraska: {
     name: 'Nebraska', nickname: 'Cornhuskers', location: 'Lincoln, NE',
     conf: 'Big Ten', colors: { primary: '#E41C38', secondary: '#FFFFFF' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nebraska_Cornhuskers_logo.svg/330px-Nebraska_Cornhuskers_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Memorial Stadium: 85,458 (375 consecutive sellouts)',
@@ -442,6 +464,7 @@ const SCHOOLS = {
   northwestern: {
     name: 'Northwestern', nickname: 'Wildcats', location: 'Evanston, IL',
     conf: 'Big Ten', colors: { primary: '#4E2A84', secondary: '#A89BBE' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Northwestern_Wildcats_logo.svg/330px-Northwestern_Wildcats_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Ryan Field: under reconstruction (47K → 35K)',
@@ -456,6 +479,7 @@ const SCHOOLS = {
   illinois: {
     name: 'Illinois', nickname: 'Fighting Illini', location: 'Champaign, IL',
     conf: 'Big Ten', colors: { primary: '#13294B', secondary: '#E84A27' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Illinois_Fighting_Illini_logo.svg/500px-Illinois_Fighting_Illini_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Memorial Stadium: 60,670',
@@ -470,6 +494,7 @@ const SCHOOLS = {
   indiana: {
     name: 'Indiana', nickname: 'Hoosiers', location: 'Bloomington, IN',
     conf: 'Big Ten', colors: { primary: '#990000', secondary: '#EEEDEB' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Indiana_Hoosiers_logo.svg/960px-Indiana_Hoosiers_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Memorial Stadium: 52,929',
@@ -484,6 +509,7 @@ const SCHOOLS = {
   maryland: {
     name: 'Maryland', nickname: 'Terrapins', location: 'College Park, MD',
     conf: 'Big Ten', colors: { primary: '#E03A3E', secondary: '#FFD520' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Maryland_Terps_logo.png/330px-Maryland_Terps_logo.png',
     facts: [
       'Full athletic scholarship',
       'SECU Stadium: 51,802',
@@ -498,6 +524,7 @@ const SCHOOLS = {
   michiganstate: {
     name: 'Michigan State', nickname: 'Spartans', location: 'East Lansing, MI',
     conf: 'Big Ten', colors: { primary: '#18453B', secondary: '#FFFFFF' },
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Michigan_State_Athletics_logo.svg/330px-Michigan_State_Athletics_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Spartan Stadium: 75,005',
@@ -512,6 +539,7 @@ const SCHOOLS = {
   purdue: {
     name: 'Purdue', nickname: 'Boilermakers', location: 'West Lafayette, IN',
     conf: 'Big Ten', colors: { primary: '#CEB888', secondary: '#000000' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Purdue_Boilermakers_logo.svg/960px-Purdue_Boilermakers_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Ross-Ade Stadium: 57,236',
@@ -526,6 +554,7 @@ const SCHOOLS = {
   rutgers: {
     name: 'Rutgers', nickname: 'Scarlet Knights', location: 'Piscataway, NJ',
     conf: 'Big Ten', colors: { primary: '#CC0033', secondary: '#5F6062' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Rutgers_Scarlet_Knights_logo.svg/330px-Rutgers_Scarlet_Knights_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'SHI Stadium: 52,454',
@@ -542,6 +571,7 @@ const SCHOOLS = {
   clemson: {
     name: 'Clemson', nickname: 'Tigers', location: 'Clemson, SC',
     conf: 'ACC', colors: { primary: '#F66733', secondary: '#522D80' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Clemson_Tigers_logo.svg/330px-Clemson_Tigers_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Memorial Stadium ("Death Valley"): 81,500',
@@ -570,6 +600,7 @@ const SCHOOLS = {
   miami: {
     name: 'Miami', nickname: 'Hurricanes', location: 'Coral Gables, FL',
     conf: 'ACC', colors: { primary: '#F47321', secondary: '#005030' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Miami_University_logo_2021.svg/1280px-Miami_University_logo_2021.svg.png',
     facts: [
       'Full athletic scholarship',
       'Hard Rock Stadium: 65,326 (off-campus, Dolphins share)',
@@ -614,6 +645,7 @@ const SCHOOLS = {
   duke: {
     name: 'Duke', nickname: 'Blue Devils', location: 'Durham, NC',
     conf: 'ACC', colors: { primary: '#00539B', secondary: '#012169' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Duke_Athletics_logo.svg/250px-Duke_Athletics_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Wallace Wade Stadium: 40,004',
@@ -628,6 +660,7 @@ const SCHOOLS = {
   virginia: {
     name: 'Virginia', nickname: 'Cavaliers', location: 'Charlottesville, VA',
     conf: 'ACC', colors: { primary: '#232D4B', secondary: '#F84C1E' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Virginia_Cavaliers_wordmark.svg/500px-Virginia_Cavaliers_wordmark.svg.png',
     facts: [
       'Full athletic scholarship',
       'Scott Stadium: 61,500',
@@ -642,6 +675,7 @@ const SCHOOLS = {
   virginiatech: {
     name: 'Virginia Tech', nickname: 'Hokies', location: 'Blacksburg, VA',
     conf: 'ACC', colors: { primary: '#630031', secondary: '#CF4420' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Virginia_Tech_Hokies_logo.svg/500px-Virginia_Tech_Hokies_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Lane Stadium: 65,632 (Enter Sandman entrance)',
@@ -656,6 +690,7 @@ const SCHOOLS = {
   pitt: {
     name: 'Pittsburgh', nickname: 'Panthers', location: 'Pittsburgh, PA',
     conf: 'ACC', colors: { primary: '#003594', secondary: '#FFB81C' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Pitt_Panthers_wordmark.svg/500px-Pitt_Panthers_wordmark.svg.png',
     facts: [
       'Full athletic scholarship',
       'Acrisure Stadium: 68,400 (shared with Steelers)',
@@ -670,6 +705,7 @@ const SCHOOLS = {
   louisville: {
     name: 'Louisville', nickname: 'Cardinals', location: 'Louisville, KY',
     conf: 'ACC', colors: { primary: '#AD0000', secondary: '#000000' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Louisville_Wordmark_%282023%29.svg/500px-Louisville_Wordmark_%282023%29.svg.png',
     facts: [
       'Full athletic scholarship',
       'L&N Federal Credit Union Stadium: 60,800',
@@ -684,6 +720,7 @@ const SCHOOLS = {
   syracuse: {
     name: 'Syracuse', nickname: 'Orange', location: 'Syracuse, NY',
     conf: 'ACC', colors: { primary: '#F76900', secondary: '#000E54' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Syracuse_Orange_logo.svg/250px-Syracuse_Orange_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'JMA Wireless Dome: 49,250',
@@ -698,6 +735,7 @@ const SCHOOLS = {
   bostoncollege: {
     name: 'Boston College', nickname: 'Eagles', location: 'Chestnut Hill, MA',
     conf: 'ACC', colors: { primary: '#8A1538', secondary: '#B89D5E' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Boston_College_Eagles_wordmark.svg/500px-Boston_College_Eagles_wordmark.svg.png',
     facts: [
       'Full athletic scholarship',
       'Alumni Stadium: 44,500',
@@ -727,6 +765,7 @@ const SCHOOLS = {
   gatech: {
     name: 'Georgia Tech', nickname: 'Yellow Jackets', location: 'Atlanta, GA',
     conf: 'ACC', colors: { primary: '#B3A369', secondary: '#003057' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Georgia_Tech_Yellow_Jackets_logo.svg/330px-Georgia_Tech_Yellow_Jackets_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Bobby Dodd Stadium: 55,000',
@@ -741,6 +780,7 @@ const SCHOOLS = {
   smu: {
     name: 'SMU', nickname: 'Mustangs', location: 'Dallas, TX',
     conf: 'ACC', colors: { primary: '#0033A0', secondary: '#C8102E' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/SMU_Mustang_logo.svg/330px-SMU_Mustang_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Gerald J. Ford Stadium: 32,000',
@@ -770,6 +810,7 @@ const SCHOOLS = {
   cal: {
     name: 'California', nickname: 'Golden Bears', location: 'Berkeley, CA',
     conf: 'ACC', colors: { primary: '#003262', secondary: '#FDB515' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/California_Golden_Bears_logo.svg/250px-California_Golden_Bears_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'California Memorial Stadium: 51,892',
@@ -786,6 +827,7 @@ const SCHOOLS = {
   notredame: {
     name: 'Notre Dame', nickname: 'Fighting Irish', location: 'South Bend, IN',
     conf: 'Independent', colors: { primary: '#0C2340', secondary: '#C99700' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nd_athletics_gold_logo_2015.svg/330px-Nd_athletics_gold_logo_2015.svg.png',
     facts: [
       'Full athletic scholarship',
       'Notre Dame Stadium: 77,622',
@@ -800,6 +842,7 @@ const SCHOOLS = {
   army: {
     name: 'Army', nickname: 'Black Knights', location: 'West Point, NY',
     conf: 'Service Academy', colors: { primary: '#000000', secondary: '#D4BF91' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Army_West_Point_logo.svg/330px-Army_West_Point_logo.svg.png',
     facts: [
       'Full tuition + stipend + military commission',
       'Michie Stadium: 38,000 (overlooks Hudson)',
@@ -814,6 +857,7 @@ const SCHOOLS = {
   navy: {
     name: 'Navy', nickname: 'Midshipmen', location: 'Annapolis, MD',
     conf: 'Service Academy', colors: { primary: '#1F2F54', secondary: '#C5A02C' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Navy_Athletics_logo.svg/250px-Navy_Athletics_logo.svg.png',
     facts: [
       'Full tuition + stipend + officer commission',
       'Navy-Marine Corps Memorial Stadium: 34,000',
@@ -828,6 +872,7 @@ const SCHOOLS = {
   airforce: {
     name: 'Air Force', nickname: 'Falcons', location: 'Colorado Springs, CO',
     conf: 'Service Academy', colors: { primary: '#003594', secondary: '#8A8B8C' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Air_Force_Falcons_logo.svg/250px-Air_Force_Falcons_logo.svg.png',
     facts: [
       'Full tuition + stipend + officer commission',
       'Falcon Stadium: 46,692 (elevation 6,621 ft)',
@@ -842,6 +887,7 @@ const SCHOOLS = {
   jacksonstate: {
     name: 'Jackson State', nickname: 'Tigers', location: 'Jackson, MS',
     conf: 'SWAC', colors: { primary: '#003DA5', secondary: '#FFFFFF' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Jackson_State_athletics_logo.svg/330px-Jackson_State_athletics_logo.svg.png',
     facts: [
       'Full athletic scholarship (FCS level)',
       'Mississippi Memorial Stadium: 60,492',
@@ -856,6 +902,7 @@ const SCHOOLS = {
   howard: {
     name: 'Howard', nickname: 'Bison', location: 'Washington, DC',
     conf: 'MEAC', colors: { primary: '#003A63', secondary: '#E51937' },
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Howard_Bison_wordmark.svg/500px-Howard_Bison_wordmark.svg.png',
     facts: [
       'Full athletic scholarship (FCS)',
       'Greene Stadium: 9,000',
@@ -868,6 +915,40 @@ const SCHOOLS = {
     ],
   },
 };
+ 
+// ============================================================
+// SPONSOR LOGOS — detected from school's facts
+// ============================================================
+ 
+const SPONSORS = {
+  nike: {
+    name: 'Nike',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/500px-Logo_NIKE.svg.png',
+  },
+  jordan: {
+    name: 'Jordan Brand',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Jumpman_logo.svg/500px-Jumpman_logo.svg.png',
+  },
+  adidas: {
+    name: 'Adidas',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Adidas_2022_logo.svg/500px-Adidas_2022_logo.svg.png',
+  },
+  underarmour: {
+    name: 'Under Armour',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Under_armour_logo.svg/330px-Under_armour_logo.svg.png',
+  },
+};
+ 
+// Detect the school's apparel sponsor by scanning all of its facts.
+// Jordan checked before Nike (since "Jordan Brand school" implies both, Jordan wins).
+function detectSponsor(school) {
+  const allText = school.facts.join(' ').toLowerCase();
+  if (allText.includes('jordan')) return SPONSORS.jordan;
+  if (allText.includes('under armour')) return SPONSORS.underarmour;
+  if (allText.includes('adidas')) return SPONSORS.adidas;
+  if (allText.includes('nike')) return SPONSORS.nike;
+  return null;
+}
  
 // ============================================================
 // MATCHUP PAIRING — favors cross-conference matchups
@@ -1175,6 +1256,8 @@ function SchoolCard({ school, facts, pct, votes, revealed, isWinner, isLoser, on
   const barTrackColor = textColor === '#FFFFFF' ? 'rgba(0,0,0,0.28)' : 'rgba(255,255,255,0.32)';
   const factTextColor = textColor === '#FFFFFF' ? 'rgba(255,255,255,0.96)' : 'rgba(0,0,0,0.92)';
  
+  const sponsor = detectSponsor(school);
+ 
   return (
     <div
       className={`card ${!revealed ? 'interactive' : ''} ${isWinner ? 'winner' : ''} ${isLoser ? 'loser' : ''}`}
@@ -1186,6 +1269,26 @@ function SchoolCard({ school, facts, pct, votes, revealed, isWinner, isLoser, on
       onClick={!revealed ? onClick : undefined}
     >
       <div style={styles.cardInner}>
+        {sponsor && (
+          <img
+            src={sponsor.logo}
+            alt={sponsor.name}
+            style={{
+              position: 'absolute',
+              right: '16px',
+              top: '50%',
+              transform: 'translateY(-50%)',
+              height: '48px',
+              maxWidth: '80px',
+              objectFit: 'contain',
+              opacity: 0.85,
+              filter: textColor === '#FFFFFF' ? 'brightness(0) invert(1)' : 'brightness(0)',
+              pointerEvents: 'none',
+              zIndex: 1,
+            }}
+            onError={(e) => { e.target.style.display = 'none'; }}
+          />
+        )}
         <span style={{ ...styles.confTag, color: subtleText, borderColor: dividerColor }}>
           {school.conf}
         </span>
@@ -1357,6 +1460,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     boxShadow: '0 8px 24px rgba(0,0,0,0.5)',
+    position: 'relative',
   },
   cardInner: {
     padding: '26px 24px 26px',
