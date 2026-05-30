@@ -600,7 +600,7 @@ const SCHOOLS = {
   miami: {
     name: 'Miami', nickname: 'Hurricanes', location: 'Coral Gables, FL',
     conf: 'ACC', colors: { primary: '#F47321', secondary: '#005030' },
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Miami_University_logo_2021.svg/1280px-Miami_University_logo_2021.svg.png',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Miami_Hurricanes_logo.svg/330px-Miami_Hurricanes_logo.svg.png',
     facts: [
       'Full athletic scholarship',
       'Hard Rock Stadium: 65,326 (off-campus, Dolphins share)',
@@ -1276,12 +1276,11 @@ function SchoolCard({ school, facts, pct, votes, revealed, isWinner, isLoser, on
             style={{
               position: 'absolute',
               right: '16px',
-              top: '50%',
-              transform: 'translateY(-50%)',
-              height: '48px',
-              maxWidth: '80px',
+              bottom: '90px',
+              height: '40px',
+              maxWidth: '70px',
               objectFit: 'contain',
-              opacity: 0.85,
+              opacity: 0.75,
               filter: textColor === '#FFFFFF' ? 'brightness(0) invert(1)' : 'brightness(0)',
               pointerEvents: 'none',
               zIndex: 1,
@@ -1620,4 +1619,3 @@ const styles = {
     fontFamily: 'inherit',
   },
 };
- 
